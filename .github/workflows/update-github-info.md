@@ -33,6 +33,11 @@ Use these sources:
 - GitHub Changelog: https://github.blog/changelog/
 - Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
+Use the `web-fetch` tool to read the GitHub Blog, GitHub Changelog, and
+Awesome Copilot workflows pages. Do not use `curl`, `wget`, or any other
+shell command to fetch URLs; the sandbox blocks unapproved shell network
+access and only the `web-fetch` tool is permitted for this.
+
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
 from the GitHub Blog or GitHub Changelog.
