@@ -34,9 +34,12 @@ Use these sources:
 - GitHub Changelog: https://github.blog/changelog/
 - Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Fetch each URL above by running `curl -s <url>` as a shell command and
-reading its output. Do not look for a separate fetch tool or skill by
-name; `curl` is the approved way to read these pages in this sandbox.
+Fetch each URL above by running exactly `curl -s <url>` as a shell
+command, with no redirection (`>`), pipes (`|`), or any other shell
+operator — just the bare `curl -s <url>` invocation — and read its
+output directly from the command result. Do not look for a separate
+fetch tool or skill by name; `curl` is the approved way to read these
+pages in this sandbox.
 
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
