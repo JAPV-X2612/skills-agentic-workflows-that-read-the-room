@@ -7,7 +7,7 @@ on:
     - cron: '17 9 * * *'
 engine:
   id: copilot
-  model: gpt-5-mini
+  model: gpt-4.1
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -16,6 +16,7 @@ safe-outputs:
 tools:
   edit:
   web-fetch:
+  bash: ["web-fetch:*", "curl:*"]
 network:
   allowed:
     - github.com
