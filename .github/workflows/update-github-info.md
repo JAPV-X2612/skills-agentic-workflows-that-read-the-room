@@ -7,7 +7,7 @@ on:
     - cron: '17 9 * * *'
 engine:
   id: copilot
-  model: gpt-5
+  model: gpt-4.1
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
